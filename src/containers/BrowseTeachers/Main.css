@@ -1,0 +1,419 @@
+.BrowseTeachers {
+  padding-bottom: 100px;
+}
+
+.BrowseTeachers .top-bar {
+  position: fixed;
+  margin-top: 60px;
+  background-color: #0a0a0a;
+  width: 100%;
+  padding: 15px;
+  z-index: 20;
+}
+
+.BrowseTeachers .top-bar form {
+  display: inline;
+}
+
+.BrowseTeachers .top-bar input {
+  font-size: large;
+  width: 70%;
+  max-width: 550px;
+  border: 0;
+  padding: 6px 8px;
+  border-radius: 0px;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+  height: 44px;
+}
+
+.BrowseTeachers .top-bar input:focus {
+  outline: none;
+}
+
+.BrowseTeachers .top-bar .btn-warning {
+  border-radius: 2px;
+}
+
+@media only screen and (max-width: 600px) {
+  .BrowseTeachers .top-bar {
+    padding: 15px;
+  }
+  .BrowseTeachers .top-bar input {
+    font-size: 16px;
+    padding: 5px;
+  }
+}
+
+.BrowseTeachers .top-bar .btn-dark {
+  border-radius: 0;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+  width: 80px;
+  height: 45px;
+  margin-top: -5px;
+}
+
+.BrowseTeachers .top-bar .btn-dark img {
+  width: 25px;
+}
+
+.BrowseTeachers .overlay {
+  position: fixed;
+  height: 100vh;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 50;
+  display: none;
+}
+
+@-webkit-keyframes slideUp {
+  from {
+    margin-top: 400px;
+  }
+  to {
+    margin-top: 100px;
+  }
+}
+
+@keyframes slideUp {
+  from {
+    margin-top: 400px;
+  }
+  to {
+    margin-top: 100px;
+  }
+}
+
+.BrowseTeachers .modal {
+  -webkit-animation-name: slideUp;
+          animation-name: slideUp;
+  -webkit-animation-duration: 0.25s;
+          animation-duration: 0.25s;
+  position: fixed;
+  display: none;
+  width: 100%;
+  height: auto;
+  z-index: 100;
+  margin-top: 100px;
+  background-color: white;
+}
+
+.BrowseTeachers .modal .title {
+  display: block;
+  font-weight: bold;
+  text-align: center;
+  background-color: #0183E9;
+  color: white;
+  padding: 20px;
+  padding-bottom: 5px;
+}
+
+.BrowseTeachers .modal .title p {
+  cursor: pointer;
+  font-weight: normal;
+  text-decoration: underline;
+}
+
+.BrowseTeachers .SignInPopup {
+  height: 550px;
+  width: 90%;
+  z-index: 100;
+  left: 50%;
+  margin-top: 100px;
+  /* Negative half of height. */
+  margin-left: -45%;
+}
+
+.BrowseTeachers .SignInPopup .title {
+  padding: 20px;
+}
+
+.BrowseTeachers .SignInPopup .container {
+  padding: 20px;
+  text-align: center;
+}
+
+.BrowseTeachers .SignInPopup .container .btn {
+  width: 250px;
+  display: block;
+  margin: auto;
+}
+
+.BrowseTeachers .FilterOptions .container .btn {
+  width: 250px;
+  display: block;
+  margin: auto;
+}
+
+.BrowseTeachers .FilterOptions .container .row .col-sm {
+  font-size: 18px;
+  display: inline-block;
+  margin: auto;
+  padding: 10px 15px;
+}
+
+.BrowseTeachers .FilterOptions .container .row .col-sm input, .BrowseTeachers .FilterOptions .container .row .col-sm select {
+  width: 100%;
+  padding: 6px;
+}
+
+@-webkit-keyframes slideDown {
+  from {
+    margin-top: -50px;
+    opacity: 0.2;
+  }
+  to {
+    margin-top: 0;
+    opacity: 1;
+  }
+}
+
+@keyframes slideDown {
+  from {
+    margin-top: -50px;
+    opacity: 0.2;
+  }
+  to {
+    margin-top: 0;
+    opacity: 1;
+  }
+}
+
+.BrowseTeachers .BookClass {
+  display: block;
+  height: 100%;
+  overflow-y: scroll;
+}
+
+.BrowseTeachers .BookClass .container {
+  font-size: large;
+  padding: 20px;
+  padding-bottom: 400px;
+  color: #3d3d3d;
+  scroll-behavior: smooth;
+}
+
+.BrowseTeachers .BookClass .container .btn-success {
+  width: auto;
+  padding: 5px 20px;
+}
+
+.BrowseTeachers .BookClass .container .session, .BrowseTeachers .BookClass .container .subject, .BrowseTeachers .BookClass .container .grade {
+  font-size: large;
+  padding: 12px;
+  margin: 5px;
+  display: inline-block;
+  color: #0183E9;
+  border: 1px solid #0183E9;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.BrowseTeachers .BookClass .container .session:hover, .BrowseTeachers .BookClass .container .subject:hover, .BrowseTeachers .BookClass .container .grade:hover {
+  background-color: #0183E9;
+  color: white;
+}
+
+.BrowseTeachers .BookClass .container .selected {
+  background-color: #0183E9;
+  color: white;
+}
+
+.BrowseTeachers .BookClass .container .timePicker {
+  display: none;
+  -webkit-animation-name: slideDown;
+          animation-name: slideDown;
+  -webkit-animation-duration: 0.5s;
+          animation-duration: 0.5s;
+}
+
+.BrowseTeachers .BookClass .container .react-datepicker {
+  font-size: 1em;
+}
+
+.BrowseTeachers .BookClass .container .react-datepicker__header {
+  padding-top: 0.8em;
+}
+
+.BrowseTeachers .BookClass .container .react-datepicker__month {
+  margin: 0.4em 1em;
+}
+
+.BrowseTeachers .BookClass .container .react-datepicker__day-name, .BrowseTeachers .BookClass .container .react-datepicker__day {
+  width: 1.9em;
+  line-height: 1.9em;
+  margin: 0.166em;
+}
+
+.BrowseTeachers .BookClass .container .react-datepicker__current-month {
+  font-size: 1em;
+}
+
+.BrowseTeachers .BookClass .container .react-datepicker__navigation {
+  top: 1em;
+  line-height: 1.7em;
+  border: 0.45em solid transparent;
+}
+
+.BrowseTeachers .BookClass .container .react-datepicker__navigation--previous {
+  border-right-color: #ccc;
+  left: 1em;
+}
+
+.BrowseTeachers .BookClass .container .react-datepicker__navigation--next {
+  border-left-color: #ccc;
+  right: 1em;
+}
+
+.BrowseTeachers .BookClass .container input {
+  padding: 6px;
+}
+
+.BrowseTeachers .BookClass .container h4 {
+  color: #2e990e;
+}
+
+.BrowseTeachers .BookClass .container .profile-pic {
+  width: 100px;
+  height: 100px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.BrowseTeachers .BookClass .container .name {
+  font-size: large;
+  padding-left: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+  .BrowseTeachers .BookClass .container {
+    font-size: 16px;
+  }
+}
+
+.BrowseTeachers .options {
+  float: right;
+}
+
+.BrowseTeachers .options .filter {
+  width: 32px;
+  cursor: pointer;
+}
+
+.BrowseTeachers h2 {
+  padding: 20px 0;
+}
+
+@media only screen and (max-width: 570px) {
+  .BrowseTeachers .top-bar input {
+    width: 60%;
+  }
+  .BrowseTeachers .top-bar .btn-dark {
+    width: 60px;
+  }
+}
+
+@media only screen and (max-width: 1003px) {
+  .BrowseTeachers .top-bar {
+    margin-top: 110px;
+  }
+}
+
+@media only screen and (max-width: 856px) {
+  .BrowseTeachers .top-bar {
+    margin-top: 75px;
+  }
+}
+
+.BrowseTeachers .loader {
+  width: 40px;
+  display: block;
+  margin: auto;
+  padding: 200px 0;
+}
+
+.BrowseTeachers .main-container {
+  padding: 30px;
+  width: 100%;
+  max-width: 1250px;
+  display: block;
+  margin: auto;
+  margin-top: 150px;
+}
+
+@media only screen and (max-width: 570px) {
+  .BrowseTeachers .main-container {
+    padding: 15px;
+  }
+}
+
+.BrowseTeachers .main-container .TeacherModule {
+  padding: 15px;
+  width: 100%;
+  display: block;
+  margin: auto;
+  border-left: 2px solid #2e990e;
+  margin-top: 15px;
+  background-color: white;
+}
+
+.BrowseTeachers .main-container .TeacherModule .row .col-xs-1, .BrowseTeachers .main-container .TeacherModule .row .col-xs-9, .BrowseTeachers .main-container .TeacherModule .row .col-xs-2 {
+  margin: auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.BrowseTeachers .main-container .TeacherModule .row .col-xs-1 .btn, .BrowseTeachers .main-container .TeacherModule .row .col-xs-9 .btn, .BrowseTeachers .main-container .TeacherModule .row .col-xs-2 .btn {
+  float: right;
+  font-size: 20px;
+  width: 200px;
+  padding: 8px;
+}
+
+.BrowseTeachers .main-container .TeacherModule .row .col-xs-1 .name, .BrowseTeachers .main-container .TeacherModule .row .col-xs-9 .name, .BrowseTeachers .main-container .TeacherModule .row .col-xs-2 .name {
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.BrowseTeachers .main-container .TeacherModule .row .col-xs-1 .info, .BrowseTeachers .main-container .TeacherModule .row .col-xs-9 .info, .BrowseTeachers .main-container .TeacherModule .row .col-xs-2 .info {
+  display: inline;
+}
+
+.BrowseTeachers .main-container .TeacherModule .row .col-xs-1 .info span, .BrowseTeachers .main-container .TeacherModule .row .col-xs-9 .info span, .BrowseTeachers .main-container .TeacherModule .row .col-xs-2 .info span {
+  font-size: large;
+}
+
+.BrowseTeachers .main-container .TeacherModule .row .col-xs-1 .info span strong, .BrowseTeachers .main-container .TeacherModule .row .col-xs-9 .info span strong, .BrowseTeachers .main-container .TeacherModule .row .col-xs-2 .info span strong {
+  font-weight: 600;
+  border: 1px solid lightgrey;
+  padding: 6px;
+  display: inline-block;
+  margin: 5px;
+  border-radius: 5px;
+  color: #3d3d3d;
+}
+
+.BrowseTeachers .main-container .TeacherModule .row .col-xs-1 .profile-pic, .BrowseTeachers .main-container .TeacherModule .row .col-xs-9 .profile-pic, .BrowseTeachers .main-container .TeacherModule .row .col-xs-2 .profile-pic {
+  width: 120px;
+  height: 120px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+@media only screen and (max-width: 600px) {
+  .BrowseTeachers .main-container .TeacherModule .row .col-xs-1, .BrowseTeachers .main-container .TeacherModule .row .col-xs-9, .BrowseTeachers .main-container .TeacherModule .row .col-xs-2 {
+    padding: 15px;
+  }
+  .BrowseTeachers .main-container .TeacherModule .row .col-xs-1 .name, .BrowseTeachers .main-container .TeacherModule .row .col-xs-9 .name, .BrowseTeachers .main-container .TeacherModule .row .col-xs-2 .name {
+    font-size: 22px;
+  }
+  .BrowseTeachers .main-container .TeacherModule .row .col-xs-1 .info span, .BrowseTeachers .main-container .TeacherModule .row .col-xs-9 .info span, .BrowseTeachers .main-container .TeacherModule .row .col-xs-2 .info span {
+    font-size: 16px;
+  }
+  .BrowseTeachers .main-container .TeacherModule .row .col-xs-1 .profile-pic, .BrowseTeachers .main-container .TeacherModule .row .col-xs-9 .profile-pic, .BrowseTeachers .main-container .TeacherModule .row .col-xs-2 .profile-pic {
+    width: 90px;
+    height: 90px;
+  }
+}
+/*# sourceMappingURL=Main.css.map */

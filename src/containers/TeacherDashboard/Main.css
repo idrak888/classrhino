@@ -1,0 +1,118 @@
+.NotSignedIn {
+  text-align: center;
+  margin: 150px 0;
+}
+
+.TeacherDashboard .DashboardContainer {
+  color: #3d3d3d;
+  margin: 70px auto;
+  padding: 30px;
+  display: block;
+  overflow-x: hidden;
+}
+
+.TeacherDashboard .DashboardContainer .row .col-md-4 .panel, .TeacherDashboard .DashboardContainer .row .col-md-8 .panel, .TeacherDashboard .DashboardContainer .row .col-md-12 .panel {
+  background-color: white;
+  padding: 20px;
+  border: 1px solid lightgrey;
+  border-radius: 6px;
+  width: 100%;
+  margin-top: 12px;
+}
+
+.TeacherDashboard .DashboardContainer .row .col-md-4 .panel strong, .TeacherDashboard .DashboardContainer .row .col-md-8 .panel strong, .TeacherDashboard .DashboardContainer .row .col-md-12 .panel strong {
+  color: #2e990e;
+}
+
+.TeacherDashboard .DashboardContainer .row .col-md-4 .panel .profile-details, .TeacherDashboard .DashboardContainer .row .col-md-4 .panel .info, .TeacherDashboard .DashboardContainer .row .col-md-4 .panel .notifications, .TeacherDashboard .DashboardContainer .row .col-md-8 .panel .profile-details, .TeacherDashboard .DashboardContainer .row .col-md-8 .panel .info, .TeacherDashboard .DashboardContainer .row .col-md-8 .panel .notifications, .TeacherDashboard .DashboardContainer .row .col-md-12 .panel .profile-details, .TeacherDashboard .DashboardContainer .row .col-md-12 .panel .info, .TeacherDashboard .DashboardContainer .row .col-md-12 .panel .notifications {
+  text-align: center;
+}
+
+.TeacherDashboard .DashboardContainer .row .col-md-4 .panel .profile-details h2, .TeacherDashboard .DashboardContainer .row .col-md-4 .panel .profile-details h4, .TeacherDashboard .DashboardContainer .row .col-md-4 .panel .info h2, .TeacherDashboard .DashboardContainer .row .col-md-4 .panel .info h4, .TeacherDashboard .DashboardContainer .row .col-md-4 .panel .notifications h2, .TeacherDashboard .DashboardContainer .row .col-md-4 .panel .notifications h4, .TeacherDashboard .DashboardContainer .row .col-md-8 .panel .profile-details h2, .TeacherDashboard .DashboardContainer .row .col-md-8 .panel .profile-details h4, .TeacherDashboard .DashboardContainer .row .col-md-8 .panel .info h2, .TeacherDashboard .DashboardContainer .row .col-md-8 .panel .info h4, .TeacherDashboard .DashboardContainer .row .col-md-8 .panel .notifications h2, .TeacherDashboard .DashboardContainer .row .col-md-8 .panel .notifications h4, .TeacherDashboard .DashboardContainer .row .col-md-12 .panel .profile-details h2, .TeacherDashboard .DashboardContainer .row .col-md-12 .panel .profile-details h4, .TeacherDashboard .DashboardContainer .row .col-md-12 .panel .info h2, .TeacherDashboard .DashboardContainer .row .col-md-12 .panel .info h4, .TeacherDashboard .DashboardContainer .row .col-md-12 .panel .notifications h2, .TeacherDashboard .DashboardContainer .row .col-md-12 .panel .notifications h4 {
+  font-weight: bold;
+}
+
+.TeacherDashboard .DashboardContainer .row .col-md-4 .panel .profile-details .profile-pic, .TeacherDashboard .DashboardContainer .row .col-md-4 .panel .info .profile-pic, .TeacherDashboard .DashboardContainer .row .col-md-4 .panel .notifications .profile-pic, .TeacherDashboard .DashboardContainer .row .col-md-8 .panel .profile-details .profile-pic, .TeacherDashboard .DashboardContainer .row .col-md-8 .panel .info .profile-pic, .TeacherDashboard .DashboardContainer .row .col-md-8 .panel .notifications .profile-pic, .TeacherDashboard .DashboardContainer .row .col-md-12 .panel .profile-details .profile-pic, .TeacherDashboard .DashboardContainer .row .col-md-12 .panel .info .profile-pic, .TeacherDashboard .DashboardContainer .row .col-md-12 .panel .notifications .profile-pic {
+  border-radius: 100%;
+  width: 100px;
+  height: 100px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.TeacherDashboard .DashboardContainer .row .col-md-4 .panel .profile-details .subject, .TeacherDashboard .DashboardContainer .row .col-md-4 .panel .info .subject, .TeacherDashboard .DashboardContainer .row .col-md-4 .panel .notifications .subject, .TeacherDashboard .DashboardContainer .row .col-md-8 .panel .profile-details .subject, .TeacherDashboard .DashboardContainer .row .col-md-8 .panel .info .subject, .TeacherDashboard .DashboardContainer .row .col-md-8 .panel .notifications .subject, .TeacherDashboard .DashboardContainer .row .col-md-12 .panel .profile-details .subject, .TeacherDashboard .DashboardContainer .row .col-md-12 .panel .info .subject, .TeacherDashboard .DashboardContainer .row .col-md-12 .panel .notifications .subject {
+  display: inline-block;
+  padding: 6px;
+  border-radius: 4px;
+  border: 1px solid grey;
+  margin: 5px;
+}
+
+.TeacherDashboard .DashboardContainer .row .col-md-4 .panel .classes, .TeacherDashboard .DashboardContainer .row .col-md-8 .panel .classes, .TeacherDashboard .DashboardContainer .row .col-md-12 .panel .classes {
+  height: 400px;
+  overflow-y: scroll;
+}
+
+.TeacherDashboard .DashboardContainer .row .col-md-4 .panel .classes .noClasses, .TeacherDashboard .DashboardContainer .row .col-md-8 .panel .classes .noClasses, .TeacherDashboard .DashboardContainer .row .col-md-12 .panel .classes .noClasses {
+  padding: 100px 20px;
+  color: grey;
+  text-align: center;
+}
+
+.TeacherDashboard .DashboardContainer .row .col-md-4 .panel .classes .noClasses p, .TeacherDashboard .DashboardContainer .row .col-md-8 .panel .classes .noClasses p, .TeacherDashboard .DashboardContainer .row .col-md-12 .panel .classes .noClasses p {
+  font-size: large;
+}
+
+.TeacherDashboard .DashboardContainer .row .col-md-4 .panel .row, .TeacherDashboard .DashboardContainer .row .col-md-8 .panel .row, .TeacherDashboard .DashboardContainer .row .col-md-12 .panel .row {
+  padding: 0 20px;
+}
+
+.TeacherDashboard .DashboardContainer .row .col-md-4 .panel .row .col-xs, .TeacherDashboard .DashboardContainer .row .col-md-8 .panel .row .col-xs, .TeacherDashboard .DashboardContainer .row .col-md-12 .panel .row .col-xs {
+  width: 50%;
+}
+
+.TeacherDashboard .DashboardContainer .row .col-md-4 .panel .row .col-xs .btn, .TeacherDashboard .DashboardContainer .row .col-md-8 .panel .row .col-xs .btn, .TeacherDashboard .DashboardContainer .row .col-md-12 .panel .row .col-xs .btn {
+  margin-top: -5px;
+  border-radius: 5;
+  float: right;
+  font-weight: bolder;
+}
+
+.TeacherDashboard .DashboardContainer .row .col-md-4 .panel .row .col-xs .btn img, .TeacherDashboard .DashboardContainer .row .col-md-8 .panel .row .col-xs .btn img, .TeacherDashboard .DashboardContainer .row .col-md-12 .panel .row .col-xs .btn img {
+  margin-top: -3px;
+}
+
+.TeacherDashboard .DashboardContainer .row .col-md-4 .panel .notification-count, .TeacherDashboard .DashboardContainer .row .col-md-8 .panel .notification-count, .TeacherDashboard .DashboardContainer .row .col-md-12 .panel .notification-count {
+  font-weight: bold;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  font-size: 20px;
+  color: #fff;
+  line-height: 28px;
+  text-align: center;
+  display: inline-block;
+  background: #c52626;
+}
+
+.TeacherDashboard .DashboardContainer .row .col-md-4 .panel .notifications, .TeacherDashboard .DashboardContainer .row .col-md-8 .panel .notifications, .TeacherDashboard .DashboardContainer .row .col-md-12 .panel .notifications {
+  text-align: left;
+  overflow-y: scroll;
+  height: 80px;
+}
+
+.TeacherDashboard .DashboardContainer .row .col-md-4 .panel .notifications a, .TeacherDashboard .DashboardContainer .row .col-md-8 .panel .notifications a, .TeacherDashboard .DashboardContainer .row .col-md-12 .panel .notifications a {
+  font-size: large;
+  display: block;
+}
+
+.TeacherDashboard .DashboardContainer .row .col-md-4 .panel .notifications a:hover, .TeacherDashboard .DashboardContainer .row .col-md-8 .panel .notifications a:hover, .TeacherDashboard .DashboardContainer .row .col-md-12 .panel .notifications a:hover {
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 570px) {
+  .TeacherDashboard .DashboardContainer {
+    padding: 0 10px;
+  }
+}
+/*# sourceMappingURL=Main.css.map */

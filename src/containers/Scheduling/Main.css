@@ -1,0 +1,96 @@
+.Scheduling {
+  padding: 150px 20px;
+  text-align: center;
+}
+
+.Scheduling p {
+  font-size: large;
+}
+
+.Scheduling .message {
+  display: none;
+}
+
+.Scheduling .main-container {
+  text-align: left;
+  padding: 25px;
+  width: 100%;
+  max-width: 850px;
+  display: block;
+  margin: auto;
+}
+
+.Scheduling .day {
+  display: block;
+  padding: 15px;
+  width: 100%;
+  border-radius: 4px;
+  background-color: white;
+  -webkit-box-shadow: 2px 2px 3px lightgrey;
+          box-shadow: 2px 2px 3px lightgrey;
+  margin-top: 8px;
+  cursor: pointer;
+}
+
+.Scheduling .day:hover {
+  background-color: #0183E9;
+  color: white;
+}
+
+.Scheduling .selected {
+  background-color: #0d72c0;
+  color: white;
+}
+
+.Scheduling .TimeSelector {
+  width: 100%;
+}
+
+.Scheduling .TimeSelector .row .col-sm {
+  border: 1px solid lightgrey;
+  background-color: white;
+  padding: 5px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.Scheduling .session {
+  background-color: white;
+  padding: 10px;
+  border-radius: 4px;
+  font-size: larger;
+  margin: 6px;
+  -webkit-box-shadow: 2px 2px 3px lightgrey;
+          box-shadow: 2px 2px 3px lightgrey;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.Scheduling .session img {
+  margin-left: 5px;
+}
+
+.Scheduling .btn-primary {
+  border-radius: 2px;
+  font-size: large;
+}
+
+.Scheduling .text-success {
+  font-weight: bold;
+}
+
+@media only screen and (max-width: 600px) {
+  .Scheduling .main-container {
+    padding: 0px;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  .Scheduling .main-container {
+    display: none;
+  }
+  .Scheduling .message {
+    display: block;
+  }
+}
+/*# sourceMappingURL=Main.css.map */

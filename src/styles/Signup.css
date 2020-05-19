@@ -1,0 +1,207 @@
+.StudentSignup, .Login, .TeacherSignup {
+  padding: 100px 20px;
+}
+
+.StudentSignup .btn-success, .Login .btn-success, .TeacherSignup .btn-success {
+  background-color: #2e990e;
+  font-weight: bold;
+  padding: 4px;
+  border: 0;
+  width: 120px;
+  font-size: 16px;
+  margin-top: -5px;
+}
+
+.StudentSignup .illustration, .Login .illustration, .TeacherSignup .illustration {
+  width: 400px;
+  display: block;
+  margin: auto;
+}
+
+.StudentSignup h1, .Login h1, .TeacherSignup h1 {
+  font-size: 26px;
+  color: #3d3d3d;
+  text-align: center;
+}
+
+.StudentSignup p, .Login p, .TeacherSignup p {
+  text-align: center;
+}
+
+.StudentSignup h4, .Login h4, .TeacherSignup h4 {
+  width: 100%;
+  max-width: 500px;
+  margin: auto;
+  color: #575757;
+}
+
+.StudentSignup .form, .Login .form, .TeacherSignup .form {
+  width: 90%;
+  max-width: 750px;
+  padding: 50px;
+  background-color: white;
+  border-radius: 5px;
+  display: block;
+  margin: auto;
+  font-size: larger;
+  margin-top: 12px;
+}
+
+.StudentSignup .form .btn-primary, .Login .form .btn-primary, .TeacherSignup .form .btn-primary {
+  width: 100px;
+  font-weight: bold;
+  font-size: x-large;
+  padding: 0px;
+}
+
+.StudentSignup .form .items-container, .Login .form .items-container, .TeacherSignup .form .items-container {
+  width: 100%;
+  max-width: 500px;
+  margin: auto;
+  display: block;
+}
+
+.StudentSignup .form .items-container .item, .Login .form .items-container .item, .TeacherSignup .form .items-container .item {
+  -webkit-box-shadow: 2px 2px 3px #e4e4e4;
+          box-shadow: 2px 2px 3px #e4e4e4;
+  padding: 6px 10px;
+  border: 1px solid lightgrey;
+  border-radius: 4px;
+  margin: 5px;
+  display: inline-block;
+}
+
+.StudentSignup .form .items-container .item img, .Login .form .items-container .item img, .TeacherSignup .form .items-container .item img {
+  cursor: pointer;
+}
+
+.StudentSignup .form input, .StudentSignup .form select, .StudentSignup .form button, .StudentSignup .form .gradeContainer, .Login .form input, .Login .form select, .Login .form button, .Login .form .gradeContainer, .TeacherSignup .form input, .TeacherSignup .form select, .TeacherSignup .form button, .TeacherSignup .form .gradeContainer {
+  padding: 6px 8px;
+  font-size: 18px;
+  width: 100%;
+  max-width: 500px;
+  margin: auto;
+  display: block;
+  margin-top: 20px;
+  outline: none;
+}
+
+.StudentSignup .form .dropdowns, .Login .form .dropdowns, .TeacherSignup .form .dropdowns {
+  border: 1px solid lightgrey;
+  border-radius: 4px;
+  width: 100%;
+  max-width: 500px;
+  display: block;
+  margin: auto;
+  text-align: center;
+}
+
+.StudentSignup .form .dropdowns .col-xs-4, .Login .form .dropdowns .col-xs-4, .TeacherSignup .form .dropdowns .col-xs-4 {
+  padding: 2px;
+  display: inline-block;
+}
+
+.StudentSignup .form .dropdowns .col-xs-4 select, .Login .form .dropdowns .col-xs-4 select, .TeacherSignup .form .dropdowns .col-xs-4 select {
+  border: 2px solid #0183E9;
+  width: 100px;
+}
+
+.StudentSignup .form .label, .Login .form .label, .TeacherSignup .form .label {
+  border: 0;
+  font-size: 17px;
+}
+
+.StudentSignup .form .grade, .Login .form .grade, .TeacherSignup .form .grade {
+  font-size: large;
+  padding: 12px;
+  margin: 5px;
+  display: inline-block;
+  color: #0183E9;
+  border: 1px solid #0183E9;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.StudentSignup .form .grade:hover, .Login .form .grade:hover, .TeacherSignup .form .grade:hover {
+  background-color: #0183E9;
+  color: white;
+}
+
+.StudentSignup .form .selected, .Login .form .selected, .TeacherSignup .form .selected {
+  background-color: #0183E9;
+  color: white;
+}
+
+.StudentSignup .form .rate, .Login .form .rate, .TeacherSignup .form .rate {
+  font-size: 26px;
+  color: #3d3d3d;
+  font-weight: bold;
+}
+
+.StudentSignup .form .error, .Login .form .error, .TeacherSignup .form .error {
+  border: 1px solid red;
+}
+
+.StudentSignup .form p, .Login .form p, .TeacherSignup .form p {
+  text-align: center;
+}
+
+.StudentSignup .form hr, .Login .form hr, .TeacherSignup .form hr {
+  width: 200px;
+}
+
+.StudentSignup .form input, .StudentSignup .form select, .Login .form input, .Login .form select, .TeacherSignup .form input, .TeacherSignup .form select {
+  border: 1px solid lightgrey;
+  border-radius: 4px;
+  background-color: white;
+}
+
+.StudentSignup .form .CitySelector .city, .Login .form .CitySelector .city, .TeacherSignup .form .CitySelector .city {
+  font-family: 'Open Sans', FontAwesome;
+}
+
+.StudentSignup .form .CitySelector .text-muted, .Login .form .CitySelector .text-muted, .TeacherSignup .form .CitySelector .text-muted {
+  display: none;
+}
+
+.StudentSignup .form .CitySelector .loader, .Login .form .CitySelector .loader, .TeacherSignup .form .CitySelector .loader {
+  width: 30px;
+  margin: auto;
+  display: none;
+  margin-top: 20px;
+}
+
+.StudentSignup .form .CitySelector .btn, .Login .form .CitySelector .btn, .TeacherSignup .form .CitySelector .btn {
+  background-color: #e4e4e4;
+  display: block;
+  width: 100%;
+  margin-top: 6px;
+}
+
+@media only screen and (max-width: 570px) {
+  .StudentSignup .illustration, .Login .illustration, .TeacherSignup .illustration {
+    width: 250px;
+  }
+  .StudentSignup .form, .Login .form, .TeacherSignup .form {
+    padding: 50px 20px;
+    width: 100%;
+    font-size: normal;
+  }
+  .StudentSignup .form input, .StudentSignup .form select, .StudentSignup .form button, .Login .form input, .Login .form select, .Login .form button, .TeacherSignup .form input, .TeacherSignup .form select, .TeacherSignup .form button {
+    font-size: 90%;
+  }
+}
+
+.Login {
+  text-align: center;
+}
+
+.Login h3 {
+  margin: 30px 0;
+}
+
+.Login span {
+  font-size: x-large;
+  margin: 10px;
+}
+/*# sourceMappingURL=Signup.css.map */

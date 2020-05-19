@@ -1,0 +1,101 @@
+$primary-color: rgb(46, 153, 14);
+$secondary-color: rgb(61, 61, 61);
+
+.NotSignedIn {
+    text-align: center;
+    margin: 150px 0;
+}
+.StudentDashboard {
+    .DashboardContainer {
+        color: $secondary-color;
+        margin: 70px auto;
+        padding: 30px;
+        display: block;
+        overflow-x: hidden;
+        @media only screen and (max-width: 570px) {
+            padding: 30px 10px;
+        }
+        .row {
+            .col-md-4, .col-md-8, .col-md-12 {
+                .panel {
+                    background-color: white;
+                    padding: 20px;
+                    border: 1px solid lightgrey;
+                    border-radius: 6px;
+                    width: 100%;
+                    margin-top: 12px;
+                    .row {
+                        padding: 0 20px;
+                        .col-xs {
+                            width: 50%;
+                            .btn {
+                                margin-top: -5px;
+                                border-radius: 5;
+                                float: right;
+                            }
+                        }
+                    }
+                    .profile-details, .info, .notifications {
+                        text-align: center;
+                        h2, h4 {
+                            font-weight: bold;
+                        }
+                        .profile-pic {
+                            border-radius: 100%;
+                            width: 100px;
+                            height: 100px;
+                            object-fit: cover;
+                        }
+                        .subject {
+                            display: inline-block;
+                            padding: 6px;
+                            border-radius: 4px;
+                            border: 1px solid grey;
+                            margin: 5px;
+                        }
+                    }
+                    .classes {
+                        height: 400px;
+                        overflow-y: scroll;
+                        .noClasses {
+                            text-align: center;
+                            color: $secondary-color;
+                            padding: 15px;
+                            p {
+                                font-size: large;
+                            }
+                            .illustration {
+                                width: 180px;
+                                padding: 10px;
+                            }
+                        }
+                    }
+                    .notification-count {
+                        font-weight: bold;
+                        width: 28px;
+                        height: 28px;
+                        border-radius: 50%;
+                        font-size: 20px;
+                        color: #fff;
+                        line-height: 28px;
+                        text-align: center;
+                        display: inline-block;
+                        background: rgb(197, 38, 38)
+                    }
+                    .notifications {
+                        text-align: left;
+                        overflow-y: scroll;
+                        height: 80px;
+                        a {
+                            font-size: large;
+                            display: block;
+                            &:hover {
+                                text-decoration: none;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

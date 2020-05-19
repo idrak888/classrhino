@@ -1,0 +1,470 @@
+$primary-color: rgb(46, 153, 14);
+$secondary-color: rgb(61, 61, 61);
+$blue: #0183E9;
+
+.App {
+    overflow-x: hidden;
+}
+
+.btn-success {
+    background-color: $primary-color;
+    font-weight: bold;
+    padding: 4px;
+    border: 0;
+    width: 120px;
+    font-size: 18px;
+    margin-top: -5px;
+    &:hover {
+        box-shadow: 3px 3px 4px lightgrey;
+    }
+}
+h1 {
+    color: $secondary-color;
+}
+.BelowHeader {
+    margin-top: 50px;
+    padding: 20px;
+    .row {
+        .col-sm-6 {
+            padding: 25px;
+        }
+    }
+    h1 {
+        font-size: 40px;
+        margin-top: 60px;
+    }
+    p {
+        color: $primary-color;
+        font-size: x-large;
+    }
+    .illustration {
+        width: 100%;
+        max-width: 500px;
+        min-width: 300px;
+        display: block;
+        margin: auto;
+        margin-right: 300px;
+    }
+    .btn-success {
+        width: 180px;
+        font-size: x-large;
+        margin-right: 5px;
+        margin-top: 5px;
+    }
+    .info {
+        margin-left: 100px;
+    }
+    @media only screen and (max-width: 1100px) {
+        .info {
+            margin-left: 50px;
+        }
+    }
+    @media only screen and (max-width: 855px) {
+        margin-top: 0;
+        h1 {
+            font-size: 35px;
+            margin-top: 0px;
+        }
+        p, .btn-success {
+            font-size: large;
+        }
+        .btn-success {
+            width: 120px;
+        }
+        .illustration {
+            margin-right: 0;
+        }
+        .info {
+            margin-left: 0;
+        }
+    }
+}
+.BrowsingModule {
+    margin-top: 60px;
+    background-image: url("../assets/class.jpg");
+    background-size: cover;
+    background-position: top;
+    padding: 100px 20px;
+    .container {
+        width: 100%;
+        padding: 0;
+        padding-bottom: 40px;
+        max-width: 550px;
+        background-color: #F6F6F6;
+        border-radius: 4px;
+        .title {
+            border-top-left-radius: 4px;
+            border-top-right-radius: 4px;
+            background-color: rgb(12, 59, 134);
+            padding: 20px;
+            h4 {
+                font-weight: bold;
+            }
+            h4, span {
+                padding: 0 10px;
+                color: white;
+            }
+        }
+        .inner-container {
+            padding: 20px;
+            select {
+                margin-top: 10px;
+                width: 100%;
+                font-size: large;
+                padding: 5px 35px 5px 10px;
+                height: 36px;
+                -webkit-appearance: none;
+                border: 1px solid white;
+                -moz-appearance: none;
+                appearance: none;
+                outline: none;
+                cursor: pointer;
+                background: url(../assets/caret-down.png) 96% / 15% no-repeat rgb(255, 255, 255);
+            }
+            select::-ms-expand {
+                display: none; /* Remove default arrow in Internet Explorer 10 and 11 */
+            }
+            /* Target Internet Explorer 9 to undo the custom arrow */
+            @media screen and (min-width:0\0) {
+                select {
+                    background: none\9;
+                    padding: 5px\9;
+                }
+            }
+            .btn-primary {
+                margin-top: 10px;
+                width: 100%;
+                font-weight: bold;
+                background-color: $blue;
+                &:hover {
+                    box-shadow: none;
+                }
+            }
+        }
+    }
+}
+.HereToHelp {
+    text-align: center;
+    padding-bottom: 70px;
+    h3 {
+        margin-top: 50px;
+        margin-bottom: 30px;
+        padding: 0 15px;
+    }
+    @media only screen and (max-width: 700px) {
+        .boxes {
+            margin: 0 70px;
+        }
+    }
+    @media only screen and (min-width: 865px) {
+        .boxes {
+            margin: 0 200px;
+        }
+    }
+    @media only screen and (min-width: 905px) {
+        .boxes {
+            margin: 0 20%;
+        }
+    }
+    @media only screen and (min-width: 1300px) {
+        .boxes {
+            margin: 0 30%;
+        }
+    }
+    .boxes {
+        .row {
+            .col-sm {
+                border-radius: 4px;
+                margin: auto;
+                display: inline-block;
+                width: 350px;
+                padding: 25px;
+                background-color: white;
+                margin: 10px auto;
+                display: block;
+                height: 280px;
+                p {
+                    font-size: 22px;
+                }
+            }
+        }
+    }
+}
+
+.ItsSimple {
+    background-color: white;
+    padding: 60px 20px;
+    h1 {
+        text-align: center;
+    }
+    h4 {
+        color: $secondary-color;
+        text-align: center;
+    }
+    .row {
+        .col-sm {
+            padding: 40px;
+            h3 {
+                color: $primary-color;
+            }
+            img {
+                width: 120px;
+                float: right;
+            }
+            p {
+                font-size: 22px;
+                color: $secondary-color;
+                padding-right: 60px;
+            }
+
+        }
+    }
+    @media only screen and (max-width: 890px) {
+        .row {
+            .col-sm {
+                padding: 20px;
+            }
+        }
+    }
+    @media only screen and (max-width: 750px) {
+        .row {
+            .col-sm {
+                p {
+                    padding-right: 10px;
+                }
+            }
+        }
+    }
+    @media only screen and (max-width: 570px) {
+        .row {
+            .col-sm {
+                padding: 15px 25px;
+                text-align: center;
+                p {
+                    padding: 0;
+                    font-size: larger;
+                }
+                img {
+                    float: none;
+                    width: 80px;
+                }
+            }
+        }
+    }
+}
+
+.ScreenSharing {
+    background-color: white;
+    .row {
+        .col-sm {
+            text-align: right;
+            padding: 40px;
+            h1 {
+                font-size: 35px;
+            }
+            p {
+                font-size: 22px;
+                padding-left: 40px;
+            }
+            .screenshot {
+                width: 100%;
+                filter: drop-shadow(0 0 0.25rem rgb(105, 105, 105));
+            }
+            .iconset {
+                width: 80%;
+            }
+        }
+    }
+    @media only screen and (max-width: 750px) {
+        .row {
+            .col-sm {
+                padding: 20px;
+                p {
+                    padding-left: 0;
+                }
+            }
+        }
+    }
+    @media only screen and (max-width: 570px) {
+        .row {
+            .col-sm {
+                padding: 15px 40px;
+                p {
+                    font-size: 18px;
+                }
+            }
+        }
+    }
+}
+
+.OurTeachers {
+    background-color: white;
+    padding: 100px 0;
+    h1 {
+        text-align: center;
+        padding: 40px 0;
+        font-size: 35px;
+    }
+    .info {
+        padding: 50px 0px;
+        background-color: rgb(248, 248, 248);
+    }
+    .btn-primary {
+        width: 200px;
+        font-weight: bold;
+        display: block;
+        margin: 30px auto;
+    }
+    .row {
+        .col-sm {
+            padding: 20px;
+            strong {
+                color: $primary-color;
+            }
+            p {
+                font-size: 22px;
+                padding: 40px;
+            }
+            img {
+                display: block;
+                margin: auto;
+                width: 420px;
+            }
+        }
+        .col-xs {
+            display: inline-block;
+            margin: auto;
+            padding: 30px;
+            span {
+                display: block;
+                font-weight: bolder;
+            }
+            .medium {
+                font-size: 30px;
+            }
+            .large {
+                font-size: 45px;
+            }
+            .small {
+                font-size: 25px;
+                color: $primary-color;
+            }
+            img {
+                width: 450px;
+            }
+        }
+    }
+    hr {
+        width: 200px;
+    }
+    .sample {
+        width: 90%;
+        max-width: 600px;
+        filter: drop-shadow(0 0 0.35rem rgb(207, 207, 207));
+        display: block;
+        margin: auto;
+        border-radius: 5px;
+    }
+    .skeleton1 {
+        opacity: 0.7;
+    }
+    .skeleton2 {
+        opacity: 0.5;
+    }
+    @media only screen and (max-width: 940px) {
+        .row {
+            .col-sm {
+                p {
+                    font-size: 20px;
+                    padding: 30px;
+                }
+            }
+        }
+    }
+    @media only screen and (max-width: 570px) {
+        .row {
+            .col-sm {
+                img {
+                    min-width: 200px;
+                }
+                p {
+                    font-size: 23px;
+                }
+            }
+            .col-xs {
+                .medium {
+                    font-size: 26px;
+                }
+                .large {
+                    font-size: 42px;
+                }
+                .small {
+                    font-size: 22px;
+                    color: $primary-color;
+                }
+            }
+        }
+    }
+}
+.WhyWait {
+    padding: 80px 20px;
+    text-align: center;
+    background-color: rgb(248, 248, 248);
+    img {
+        width: 140px;
+    }
+    h2 {
+        font-size: 32px;
+        font-weight: bold;
+        margin-bottom: 25px;
+    }
+    p {
+        font-size: large;
+    }
+    .btn {
+        margin: 5px;
+        width: 70%;
+        max-width: 300px;
+        padding: 5px 12px;
+        font-size: 24px;
+    }
+}
+
+.Footer {
+    padding: 40px 20px;
+    background-color: rgb(15, 17, 19);
+    p {
+        text-align: center;
+        color: rgb(204, 204, 204);
+        font-size: 16px;
+    }
+    .row {
+        .col-sm {
+            margin: auto;
+            display: inline-block;
+            text-align: left;
+            padding: 25px;
+            button {
+                &:hover {
+                    box-shadow: none;
+                }
+            }
+            a {
+                color: rgb(204, 204, 204);
+                font-size: 22px;
+                img {
+                    display: block;
+                    margin: auto;
+                    margin-top: 6px;
+                }
+            }
+        }
+    }
+    @media only screen and (max-width: 570px) {
+        .row {
+            .col-sm {
+                text-align: center;
+            }
+        }
+    }
+}

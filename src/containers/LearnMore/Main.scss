@@ -1,0 +1,66 @@
+$primary-color: rgb(46, 153, 14);
+$secondary-color: rgb(61, 61, 61);
+$blue: #0183E9;
+
+.LearnMore {
+    padding: 100px 20px;
+    color: $secondary-color;
+    img {
+        width: 60%;
+        max-width: 300px;
+        padding: 20px;
+    }
+    text-align: center;
+    input {
+        border: 1px solid lightgrey;
+        padding: 8px;
+        font-size: 22px;
+        width: 75%;
+        max-width: 500px;
+        height: 50px;
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px;
+    }
+    .btn-primary {
+        border-radius: 0;
+        height: 49px;
+        margin-top: -10px;
+        width: 80px;
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+    }
+    .main-container {
+        text-align: left;
+        background-color: white;
+        padding: 20px;
+        width: 100%;
+        .QuestionModule {
+            width: 100%;
+            background-color: $primary-color;
+            color: white;
+            margin-top: 6px;
+            .answer {
+                background-color: rgb(241, 241, 241);
+                font-size: 22px;
+                color: black;
+                padding: 15px;
+                display: none;
+            }
+            .visible {
+                display: block;
+            }
+            h4 {
+                padding: 15px;
+            }
+            @media only screen and (max-width: 600px) {
+                h4, .answer {
+                    font-size: 18px;
+                }
+            }
+            &:hover {
+                cursor: pointer;
+                background-color: rgb(68, 165, 38);
+            }
+        }
+    }
+}

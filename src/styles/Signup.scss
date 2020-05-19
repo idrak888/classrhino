@@ -1,0 +1,180 @@
+$primary-color: rgb(46, 153, 14);
+$secondary-color: rgb(61, 61, 61);
+$blue: #0183E9;
+
+.StudentSignup, .Login, .TeacherSignup {
+    .btn-success {
+        background-color: $primary-color;
+        font-weight: bold;
+        padding: 4px;
+        border: 0;
+        width: 120px;
+        font-size: 16px;
+        margin-top: -5px;
+    }
+    padding: 100px 20px;
+    .illustration {
+        width: 400px;
+        display: block;
+        margin: auto;
+    }
+    h1 {
+        font-size: 26px;
+        color: $secondary-color;
+        text-align: center;
+    }
+    p {
+        text-align: center;
+    }
+    h4 {
+        width: 100%;
+        max-width: 500px;
+        margin: auto;
+        color: rgb(87, 87, 87);
+    }
+    .form {
+        width: 90%;
+        max-width: 750px;
+        padding: 50px;
+        background-color: white;
+        border-radius: 5px;
+        display: block;
+        margin: auto;
+        font-size: larger;
+        margin-top: 12px;
+        .btn-primary {
+            width: 100px;
+            font-weight: bold;
+            font-size: x-large;
+            padding: 0px;
+        }
+        .items-container {
+            width: 100%;
+            max-width: 500px;
+            margin: auto;
+            display: block;
+            .item {
+                box-shadow: 2px 2px 3px rgb(228, 228, 228);
+                padding: 6px 10px; 
+                border: 1px solid lightgrey;
+                border-radius: 4px;
+                margin: 5px;
+                display: inline-block;
+                img {
+                    cursor: pointer;
+                }
+            }
+        }
+        input, select, button, .gradeContainer {
+            padding: 6px 8px;
+            font-size: 18px;
+            width: 100%;
+            max-width: 500px;
+            margin: auto;
+            display: block;
+            margin-top: 20px;
+            outline: none;
+        }
+        .dropdowns {
+            border: 1px solid lightgrey;
+            border-radius: 4px;
+            width: 100%;
+            max-width: 500px;
+            display: block;
+            margin: auto;
+            text-align: center;
+            .col-xs-4 {
+                padding: 2px;
+                display: inline-block;
+                select {
+                    border: 2px solid $blue;
+                    width: 100px;
+                }
+            }
+        }
+        .label {
+            border: 0;
+            font-size: 17px;
+        }
+        .grade {
+            font-size: large;
+            padding: 12px;
+            margin: 5px;
+            display: inline-block;
+            color: $blue;
+            border: 1px solid $blue;
+            border-radius: 4px;
+            cursor: pointer;
+            &:hover {
+                background-color: $blue;
+                color: white;
+            }
+        }
+        .selected {
+            background-color: $blue;
+            color: white;
+        }
+        .rate {
+            font-size: 26px;
+            color: $secondary-color;
+            font-weight: bold;
+        }
+        .error {
+            border: 1px solid red;
+        }
+        p {
+            text-align: center;
+        }
+        hr {
+            width: 200px;
+        }
+        input, select {
+            border: 1px solid lightgrey;
+            border-radius: 4px;
+            background-color: white;
+        }
+        .CitySelector {
+            .city {
+                font-family: 'Open Sans', FontAwesome;
+            }
+            .text-muted {
+                display: none;
+            }
+            .loader {
+                width: 30px;
+                margin: auto;
+                display: none;
+                margin-top: 20px;
+            }
+            .btn {
+                background-color: rgb(228, 228, 228);
+                display: block;
+                width: 100%;
+                margin-top: 6px;
+            }
+        }
+    }
+    @media only screen and (max-width: 570px) {
+        .illustration {
+            width: 250px;
+        }
+        .form {
+            padding: 50px 20px;
+            width: 100%;
+            font-size: normal;
+            input, select, button {
+                font-size: 90%;
+            }
+        }
+    }
+}
+.Login {
+    text-align: center;
+    h3 {
+        margin: 30px 0;
+    }
+    span {
+        font-size: x-large;
+        margin: 10px;
+    }
+}

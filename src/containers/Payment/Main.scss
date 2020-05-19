@@ -1,0 +1,16 @@
+$primary-color: rgb(46, 153, 14);
+$secondary-color: rgb(61, 61, 61);
+$blue: #0183E9;
+
+.Payment {
+    .container {
+        padding: 100px 20px;
+        h2 {
+            margin-top: 15px;
+            color: $blue;
+        }
+        p, h4 {
+            color: $secondary-color;
+        }
+    }
+}

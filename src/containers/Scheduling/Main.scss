@@ -1,0 +1,83 @@
+$primary-color: rgb(46, 153, 14);
+
+.Scheduling {
+    padding: 150px 20px;
+    text-align: center;
+    p {
+        font-size: large;
+    }
+    .message {
+        display: none;
+    }
+    .main-container {
+        text-align: left;
+        padding: 25px;
+        width: 100%;
+        max-width: 850px;
+        display: block;
+        margin: auto;
+    }
+    .day {
+        display: block;
+        padding: 15px;
+        width: 100%;
+        border-radius: 4px;
+        background-color: white;
+        box-shadow: 2px 2px 3px lightgrey;
+        margin-top: 8px;
+        cursor: pointer;
+        &:hover {
+            background-color: #0183E9;
+            color: white;
+        }
+    }
+    .selected {
+        background-color: rgb(13, 114, 192);
+        color: white;
+    }
+    .TimeSelector {
+        width: 100%;
+        .row {
+            .col-sm {
+                border: 1px solid lightgrey;
+                background-color: white;
+                padding: 5px;
+                text-align: center;
+                cursor: pointer;
+            }
+        }
+    }
+    .session {
+        background-color: white;
+        padding: 10px;
+        border-radius: 4px;
+        font-size: larger;
+        margin: 6px;
+        box-shadow: 2px 2px 3px lightgrey;
+        display: inline-block;
+        cursor: pointer;
+        img {
+            margin-left: 5px;
+        }
+    }
+    .btn-primary {
+        border-radius: 2px;
+        font-size: large;
+    }
+    .text-success {
+        font-weight: bold;
+    }
+    @media only screen and (max-width: 600px) {
+        .main-container {
+            padding: 0px;
+        }
+    }
+    @media only screen and (max-width: 650px) {
+        .main-container {
+            display: none;
+        }
+        .message { 
+            display: block;
+        }
+    }
+}

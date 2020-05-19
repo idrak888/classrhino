@@ -1,0 +1,13 @@
+.Payment .container {
+  padding: 100px 20px;
+}
+
+.Payment .container h2 {
+  margin-top: 15px;
+  color: #0183E9;
+}
+
+.Payment .container p, .Payment .container h4 {
+  color: #3d3d3d;
+}
+/*# sourceMappingURL=Main.css.map */

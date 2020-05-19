@@ -1,0 +1,510 @@
+.App {
+  overflow-x: hidden;
+}
+
+.btn-success {
+  background-color: #2e990e;
+  font-weight: bold;
+  padding: 4px;
+  border: 0;
+  width: 120px;
+  font-size: 18px;
+  margin-top: -5px;
+}
+
+.btn-success:hover {
+  -webkit-box-shadow: 3px 3px 4px lightgrey;
+          box-shadow: 3px 3px 4px lightgrey;
+}
+
+h1 {
+  color: #3d3d3d;
+}
+
+.BelowHeader {
+  margin-top: 50px;
+  padding: 20px;
+}
+
+.BelowHeader .row .col-sm-6 {
+  padding: 25px;
+}
+
+.BelowHeader h1 {
+  font-size: 40px;
+  margin-top: 60px;
+}
+
+.BelowHeader p {
+  color: #2e990e;
+  font-size: x-large;
+}
+
+.BelowHeader .illustration {
+  width: 100%;
+  max-width: 500px;
+  min-width: 300px;
+  display: block;
+  margin: auto;
+  margin-right: 300px;
+}
+
+.BelowHeader .btn-success {
+  width: 180px;
+  font-size: x-large;
+  margin-right: 5px;
+  margin-top: 5px;
+}
+
+.BelowHeader .info {
+  margin-left: 100px;
+}
+
+@media only screen and (max-width: 1100px) {
+  .BelowHeader .info {
+    margin-left: 50px;
+  }
+}
+
+@media only screen and (max-width: 855px) {
+  .BelowHeader {
+    margin-top: 0;
+  }
+  .BelowHeader h1 {
+    font-size: 35px;
+    margin-top: 0px;
+  }
+  .BelowHeader p, .BelowHeader .btn-success {
+    font-size: large;
+  }
+  .BelowHeader .btn-success {
+    width: 120px;
+  }
+  .BelowHeader .illustration {
+    margin-right: 0;
+  }
+  .BelowHeader .info {
+    margin-left: 0;
+  }
+}
+
+.BrowsingModule {
+  margin-top: 60px;
+  background-image: url("../assets/class.jpg");
+  background-size: cover;
+  background-position: top;
+  padding: 100px 20px;
+}
+
+.BrowsingModule .container {
+  width: 100%;
+  padding: 0;
+  padding-bottom: 40px;
+  max-width: 550px;
+  background-color: #F6F6F6;
+  border-radius: 4px;
+}
+
+.BrowsingModule .container .title {
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  background-color: #0c3b86;
+  padding: 20px;
+}
+
+.BrowsingModule .container .title h4 {
+  font-weight: bold;
+}
+
+.BrowsingModule .container .title h4, .BrowsingModule .container .title span {
+  padding: 0 10px;
+  color: white;
+}
+
+.BrowsingModule .container .inner-container {
+  padding: 20px;
+  /* Target Internet Explorer 9 to undo the custom arrow */
+}
+
+.BrowsingModule .container .inner-container select {
+  margin-top: 10px;
+  width: 100%;
+  font-size: large;
+  padding: 5px 35px 5px 10px;
+  height: 36px;
+  -webkit-appearance: none;
+  border: 1px solid white;
+  -moz-appearance: none;
+  appearance: none;
+  outline: none;
+  cursor: pointer;
+  background: url(../assets/caret-down.png) 96%/15% no-repeat white;
+}
+
+.BrowsingModule .container .inner-container select::-ms-expand {
+  display: none;
+  /* Remove default arrow in Internet Explorer 10 and 11 */
+}
+
+@media screen and (min-width: 0\0) {
+  .BrowsingModule .container .inner-container select {
+    background: none\9;
+    padding: 5px\9;
+  }
+}
+
+.BrowsingModule .container .inner-container .btn-primary {
+  margin-top: 10px;
+  width: 100%;
+  font-weight: bold;
+  background-color: #0183E9;
+}
+
+.BrowsingModule .container .inner-container .btn-primary:hover {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.HereToHelp {
+  text-align: center;
+  padding-bottom: 70px;
+}
+
+.HereToHelp h3 {
+  margin-top: 50px;
+  margin-bottom: 30px;
+  padding: 0 15px;
+}
+
+@media only screen and (max-width: 700px) {
+  .HereToHelp .boxes {
+    margin: 0 70px;
+  }
+}
+
+@media only screen and (min-width: 865px) {
+  .HereToHelp .boxes {
+    margin: 0 200px;
+  }
+}
+
+@media only screen and (min-width: 905px) {
+  .HereToHelp .boxes {
+    margin: 0 20%;
+  }
+}
+
+@media only screen and (min-width: 1300px) {
+  .HereToHelp .boxes {
+    margin: 0 30%;
+  }
+}
+
+.HereToHelp .boxes .row .col-sm {
+  border-radius: 4px;
+  margin: auto;
+  display: inline-block;
+  width: 350px;
+  padding: 25px;
+  background-color: white;
+  margin: 10px auto;
+  display: block;
+  height: 280px;
+}
+
+.HereToHelp .boxes .row .col-sm p {
+  font-size: 22px;
+}
+
+.ItsSimple {
+  background-color: white;
+  padding: 60px 20px;
+}
+
+.ItsSimple h1 {
+  text-align: center;
+}
+
+.ItsSimple h4 {
+  color: #3d3d3d;
+  text-align: center;
+}
+
+.ItsSimple .row .col-sm {
+  padding: 40px;
+}
+
+.ItsSimple .row .col-sm h3 {
+  color: #2e990e;
+}
+
+.ItsSimple .row .col-sm img {
+  width: 120px;
+  float: right;
+}
+
+.ItsSimple .row .col-sm p {
+  font-size: 22px;
+  color: #3d3d3d;
+  padding-right: 60px;
+}
+
+@media only screen and (max-width: 890px) {
+  .ItsSimple .row .col-sm {
+    padding: 20px;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  .ItsSimple .row .col-sm p {
+    padding-right: 10px;
+  }
+}
+
+@media only screen and (max-width: 570px) {
+  .ItsSimple .row .col-sm {
+    padding: 15px 25px;
+    text-align: center;
+  }
+  .ItsSimple .row .col-sm p {
+    padding: 0;
+    font-size: larger;
+  }
+  .ItsSimple .row .col-sm img {
+    float: none;
+    width: 80px;
+  }
+}
+
+.ScreenSharing {
+  background-color: white;
+}
+
+.ScreenSharing .row .col-sm {
+  text-align: right;
+  padding: 40px;
+}
+
+.ScreenSharing .row .col-sm h1 {
+  font-size: 35px;
+}
+
+.ScreenSharing .row .col-sm p {
+  font-size: 22px;
+  padding-left: 40px;
+}
+
+.ScreenSharing .row .col-sm .screenshot {
+  width: 100%;
+  -webkit-filter: drop-shadow(0 0 0.25rem dimgray);
+          filter: drop-shadow(0 0 0.25rem dimgray);
+}
+
+.ScreenSharing .row .col-sm .iconset {
+  width: 80%;
+}
+
+@media only screen and (max-width: 750px) {
+  .ScreenSharing .row .col-sm {
+    padding: 20px;
+  }
+  .ScreenSharing .row .col-sm p {
+    padding-left: 0;
+  }
+}
+
+@media only screen and (max-width: 570px) {
+  .ScreenSharing .row .col-sm {
+    padding: 15px 40px;
+  }
+  .ScreenSharing .row .col-sm p {
+    font-size: 18px;
+  }
+}
+
+.OurTeachers {
+  background-color: white;
+  padding: 100px 0;
+}
+
+.OurTeachers h1 {
+  text-align: center;
+  padding: 40px 0;
+  font-size: 35px;
+}
+
+.OurTeachers .info {
+  padding: 50px 0px;
+  background-color: #f8f8f8;
+}
+
+.OurTeachers .btn-primary {
+  width: 200px;
+  font-weight: bold;
+  display: block;
+  margin: 30px auto;
+}
+
+.OurTeachers .row .col-sm {
+  padding: 20px;
+}
+
+.OurTeachers .row .col-sm strong {
+  color: #2e990e;
+}
+
+.OurTeachers .row .col-sm p {
+  font-size: 22px;
+  padding: 40px;
+}
+
+.OurTeachers .row .col-sm img {
+  display: block;
+  margin: auto;
+  width: 420px;
+}
+
+.OurTeachers .row .col-xs {
+  display: inline-block;
+  margin: auto;
+  padding: 30px;
+}
+
+.OurTeachers .row .col-xs span {
+  display: block;
+  font-weight: bolder;
+}
+
+.OurTeachers .row .col-xs .medium {
+  font-size: 30px;
+}
+
+.OurTeachers .row .col-xs .large {
+  font-size: 45px;
+}
+
+.OurTeachers .row .col-xs .small {
+  font-size: 25px;
+  color: #2e990e;
+}
+
+.OurTeachers .row .col-xs img {
+  width: 450px;
+}
+
+.OurTeachers hr {
+  width: 200px;
+}
+
+.OurTeachers .sample {
+  width: 90%;
+  max-width: 600px;
+  -webkit-filter: drop-shadow(0 0 0.35rem #cfcfcf);
+          filter: drop-shadow(0 0 0.35rem #cfcfcf);
+  display: block;
+  margin: auto;
+  border-radius: 5px;
+}
+
+.OurTeachers .skeleton1 {
+  opacity: 0.7;
+}
+
+.OurTeachers .skeleton2 {
+  opacity: 0.5;
+}
+
+@media only screen and (max-width: 940px) {
+  .OurTeachers .row .col-sm p {
+    font-size: 20px;
+    padding: 30px;
+  }
+}
+
+@media only screen and (max-width: 570px) {
+  .OurTeachers .row .col-sm img {
+    min-width: 200px;
+  }
+  .OurTeachers .row .col-sm p {
+    font-size: 23px;
+  }
+  .OurTeachers .row .col-xs .medium {
+    font-size: 26px;
+  }
+  .OurTeachers .row .col-xs .large {
+    font-size: 42px;
+  }
+  .OurTeachers .row .col-xs .small {
+    font-size: 22px;
+    color: #2e990e;
+  }
+}
+
+.WhyWait {
+  padding: 80px 20px;
+  text-align: center;
+  background-color: #f8f8f8;
+}
+
+.WhyWait img {
+  width: 140px;
+}
+
+.WhyWait h2 {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 25px;
+}
+
+.WhyWait p {
+  font-size: large;
+}
+
+.WhyWait .btn {
+  margin: 5px;
+  width: 70%;
+  max-width: 300px;
+  padding: 5px 12px;
+  font-size: 24px;
+}
+
+.Footer {
+  padding: 40px 20px;
+  background-color: #0f1113;
+}
+
+.Footer p {
+  text-align: center;
+  color: #cccccc;
+  font-size: 16px;
+}
+
+.Footer .row .col-sm {
+  margin: auto;
+  display: inline-block;
+  text-align: left;
+  padding: 25px;
+}
+
+.Footer .row .col-sm button:hover {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.Footer .row .col-sm a {
+  color: #cccccc;
+  font-size: 22px;
+}
+
+.Footer .row .col-sm a img {
+  display: block;
+  margin: auto;
+  margin-top: 6px;
+}
+
+@media only screen and (max-width: 570px) {
+  .Footer .row .col-sm {
+    text-align: center;
+  }
+}
+/*# sourceMappingURL=Home.css.map */

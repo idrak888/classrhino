@@ -1,0 +1,18 @@
+.ScheduleDisplay h4 {
+  color: #0183E9;
+  font-weight: bold;
+  border-bottom: 2px solid #0183E9;
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.ScheduleDisplay .session {
+  display: inline-block;
+  padding: 15px;
+  margin: 5px;
+  font-size: large;
+  border: 1px solid lightgrey;
+  border-radius: 4px;
+}
+/*# sourceMappingURL=Main.css.map */
